@@ -2,9 +2,8 @@
 
 This project is a series of assignments completed by my partner [Yinzheng Xiong](https://github.com/Mashiro-Yukino) and I when we took [CS3500: Object-Oriented Design](https://course.ccs.neu.edu/cs3500f19/) in Summer 1 Semester (May to June) in 2022 at Northeastern University. For academic integrity, we are not allowed to post code publicly. However, code is available upon request. 
 
-Yinzheng Xiong: xiong.yz@northeastern.edu
-
-I Man Liu: liu.im@northeastern.edu
+- Yinzheng Xiong: xiong.yz@northeastern.edu
+- I Man Liu: liu.im@northeastern.edu
 
 # Table-of-Contents
 - [Introduction](#introduction)
