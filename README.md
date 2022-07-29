@@ -1,23 +1,21 @@
 # ImageProcessing
 
-This is a GUI application built with the Java Swing library. This app allows a uer to interactively load, process, save, and see the changes made to an image. It also shows a histogram of the intensity, red, green, and blue values of the displayed image. 
+This project is a series of assignments completed by my partner [Yinzheng Xiong](https://github.com/Mashiro-Yukino) and I when we took [CS3500: Object-Oriented Design](https://course.ccs.neu.edu/cs3500f19/) in Summer 1 Semester (May to June) in 2022 at Northeastern University. For academic integrity, we are not allowed to post code publicly. However, code is available upon request. 
 
-The GUI displays all the operations as buttons, a section to display the image, and a section to display the histogram. The user is able to scroll the panel. When saving an image, the application saves what the user is currently seeing. Any error will be displayed to the user through pop-up windows.
+# Table-of-Contents
+- [Introduction](#introduction)
+- [USEME](#useme)
+- [Note](#note)
+
+# Introduction 
+
+This project is an image processing application built using the MVC design pattern. It supports interactive text-mode where a user types commands to process an image, or accepts a script file where the program would execute all the commands in it. This application also supports GUI mode built with the Java Swing library where a user can interactively load, process, save, and see the changes made to an image, while showing a histogram of the intensity, red, green, and blue values of the displayed image. 
+
+In the GUI mode, all the operations are displayed as buttons, unlike the text-mode and script-file mode where the user needs to type every command. There is a section to display the image and a section to display the histogram. The user is able to scroll the panel. When saving an image, the application saves what the user is currently seeing. Any error will be displayed to the user through pop-up windows.
 
 <img width="1440" alt="a-screenshot-of-our-program-with-an-image-loaded" src="https://user-images.githubusercontent.com/71456398/181701356-1f2034b6-963d-485a-96bf-e19292b2b2a8.png">
 
-This program also supports interactive text-mode and accepts script files. For more information, read the USEME section below. 
-
 My partner and I used Model–View–Controller to separate the model from the view, and using the controller to handle the user interaction. Model, view, and controller have their own responsibilities. The model is in charged of storing images. The view is responsible for displaying information to the user. The controller is used to react to user inputs and communicate with the model and view. They are loosely-coupled so that we can easily change views and models without worrying about uncontrollable effects on each other.
-
-# Table-of-Contents
-- [Notice](#notice)
-- [USEME](#useme)
-- [Notice](#notice)
-
-# Notice
-
-This project is a series of assignments completed by my partner [Yinzheng Xiong](https://github.com/Mashiro-Yukino) and I when we took [CS3500: Object-Oriented Design](https://course.ccs.neu.edu/cs3500f19/) in Summer 1 Semester (May to June) in 2022 at Northeastern University. For academic integrity, we are not allowed to post code publicly. However, code is available upon request. 
 
 # USEME 
 
@@ -57,7 +55,7 @@ Since our program supports text-based mode, text-files, and GUI, the user would 
 Press `load` to upload an image in ppm/bmp/jpg/png format first. The image will be displayed in the top right section. The corresponding histogram of the image will be displayed in the bottom right section. Press any button to edit the image. Finally, press `save` to save the image in the ppm/bmp/jpg/png format. For more detailed user guidance, read the USEME file in this repo. 
 
 
-# Notice
+# Note
 
 - The GUI doesn't support partial-image manipulation. 
 - This program only supports loading and saving files in ppm/bmp/jpg/png format. 
